@@ -46,17 +46,16 @@ p{
 hr{
     opacity: .4;
 }
+
 .container {
     margin: auto;
     width: 920px;
     height: 500px;
     border-radius: 30px;
-    /* background-image: url(./images/bg-pattern-desktop.svg); */
-    /* background-size: 700px; */
-    /* background-position: -350px -215px; */
-    /* background-repeat: no-repeat; */
     background-color: #fff;
     overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
 }
 
 .wrapper{
@@ -65,13 +64,18 @@ hr{
     justify-content: space-evenly;
 }
 
+.div{
+    margin: auto;
+    display: flex;
+    width: 1000px;
+}
 .wrapper-left{
     width: 40%;
 }
 .desktop-box{
-    position: absolute;
-    top:310px;
-    left:120px;
+    position: fixed;
+    top:415px;
+    left:280px;
 }
 .desktop-woman{
     position: relative;
