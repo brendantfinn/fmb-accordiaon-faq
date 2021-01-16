@@ -3,7 +3,6 @@ html{
     height: 100%;
 }
 
-
 body{
     background: linear-gradient(15deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%) 100%);
     margin: 0px;
@@ -49,15 +48,16 @@ hr{
 }
 .container {
     margin: auto;
-    align-content: center;
     width: 920px;
     height: 500px;
     border-radius: 30px;
+    /* background-image: url(./images/bg-pattern-desktop.svg); */
+    /* background-size: 700px; */
+    /* background-position: -350px -215px; */
+    /* background-repeat: no-repeat; */
     background-color: #fff;
-
-    /* margin-top: 100px; */
+    overflow: hidden;
 }
-
 
 .wrapper{
     margin-top: 72px;
@@ -67,6 +67,21 @@ hr{
 
 .wrapper-left{
     width: 40%;
+}
+.desktop-box{
+    position: absolute;
+    top:310px;
+    left:120px;
+}
+.desktop-woman{
+    position: relative;
+    top:-950px;
+    left:-120px;
+}
+.desktop-bg{
+    position: relative;
+    top:-375px;
+    left:-620px;
 }
 .wrapper-right{
     width: 350px;
@@ -80,7 +95,6 @@ margin: 16px 0;
 .faq-topic-top{
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
 }
 
 .topic-arrow{
