@@ -52,34 +52,39 @@ hr{
     width: 920px;
     height: 500px;
     border-radius: 30px;
+    background: url(./images//bg-pattern-desktop.svg);
     background-color: #fff;
-    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.22);
     position: relative;
+    background-position: -590px -300px;
+    background-repeat: no-repeat;
+    /* background-size: 65%; */
 }
 
 .wrapper{
     margin-top: 72px;
     display: flex;
     justify-content: space-evenly;
+    overflow: hidden;
+    height: 400px;
 }
 
-.div{
-    margin: auto;
-    display: flex;
-    width: 1000px;
-}
 .wrapper-left{
     width: 40%;
+    overflow: visible;
+    height: auto;
 }
 .desktop-box{
-    position: fixed;
-    top:415px;
-    left:280px;
+    position: absolute;
+    top:210px; 
+    left:-100px;
+    /* z-index: 1; */
+    /* margin-left: -200px; */
+    overflow: visible;
 }
 .desktop-woman{
     position: relative;
-    top:-950px;
+    top150px;
     left:-120px;
 }
 .desktop-bg{
